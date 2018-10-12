@@ -1,0 +1,26 @@
+{
+	"name": "server",
+	"version": "0.0.1",
+	"description": "Tab Tracker Server",
+	"main": "index.js",
+	"author": "Artem Rosnovsky",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'yarn run lint && node'",
+		"lint": "./node_modules/.bin/eslint \"**/*.js\""
+	},
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.4",
+		"express": "^4.16.3",
+		"morgan": "^1.9.1",
+		"nodemon": "^1.18.4",
+		"yarn": "^1.10.1"
+	},
+	"devDependencies": {
+		"eslint": "^5.6.1",
+		"eslint-config-airbnb-base": "^13.1.0",
+		"eslint-plugin-import": "^2.14.0"
+	}
+}
