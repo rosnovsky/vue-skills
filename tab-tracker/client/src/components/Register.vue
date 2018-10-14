@@ -21,6 +21,7 @@
 
 <script>
 import AuthenticationService from "@/services/AuthenticationService";
+
 export default {
   data() {
     return {
@@ -34,7 +35,7 @@ export default {
         email: this.email,
         password: this.passwords
       })
-      console.log(response)
+      return response;
     }
   }
 };

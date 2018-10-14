@@ -1,6 +1,6 @@
 {
 	"extends": "airbnb-base",
 	"rules": {
-		"quote-props": [2, "consistent-as-needed"]
+		"quote-props": [1, "consistent-as-needed"]
 	}
 }
