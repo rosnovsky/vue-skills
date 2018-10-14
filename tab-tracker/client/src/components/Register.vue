@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Register</h1>
-
+      <h1>Register</h1>
     <input
       type="email"
       name="email"
